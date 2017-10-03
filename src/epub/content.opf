@@ -19,6 +19,12 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">The Invisible Man</dc:title>
 		<meta property="file-as" refines="#title">Invisible Man, The</meta>
+		<dc:title id="subtitle">A Grotesque Romance</dc:title>
+		<meta property="file-as" refines="#subtitle">Grotesque Romance, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Invisible Man: A Grotesque Romance</dc:title>
+		<meta property="file-as" refines="#fulltitle">Invisible Man, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<dc:subject id="subject-3">Scientists -- Fiction</dc:subject>
@@ -27,15 +33,16 @@
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5230</meta>
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/5230</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/5230</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Science Fiction</meta>
+		<dc:description id="description">A scientist named Griffin creates a serum to render himself invisible and subsequently descends into madness.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;In this psychological terror, a young scientist must live in agony caused by his own hands. After the scientist discovers the key to invisibility⁠—using himself as his subject⁠—he is unable to undo his experiment and remains invisible until his end. Wells had created this tale on the destructiveness the invisibility wreaks upon the scientist and his descent into madness as a result.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5230</dc:source>
 		<dc:source>https://books.google.com/books?id=vdAOAAAAIAAJ</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Invisible_Man</meta>
