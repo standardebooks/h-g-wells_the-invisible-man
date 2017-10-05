@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-g-wells/the-invisible-man</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-10-05T20:56:25Z</dc:date>
+		<meta property="dcterms:modified">2017-10-05T20:56:25Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,14 +37,16 @@
 		<dc:description id="description">A scientist named Griffin creates a serum to render himself invisible and subsequently descends into madness.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In this psychological terror, a young scientist must live in agony caused by his own hands. After the scientist discovers the key to invisibility⁠—using himself as his subject⁠—he is unable to undo his experiment and remains invisible until his end. Wells had created this tale on the destructiveness the invisibility wreaks upon the scientist and his descent into madness as a result.&lt;/p&gt;
+			&lt;p&gt;Griffin, a scientist, has devoted his life to the study of optics. As his work progresses, he invents a method of making a person invisible. After testing the experiment on himself, he comes to realize that while the experiment was a complete success, he has no way of reversing his invisibility.&lt;/p&gt;
+			&lt;p&gt;Written in a time of rapid scientific progress and industrial development, Wells uses Griffin’s struggle with his condition and descent into obsession and madness to reflect on the dangers of unbridaled scientific progress untempered by compassion or humanity.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Invisible Man&lt;/i&gt; was initially serialized in &lt;i&gt;Pearson’s Weekly&lt;/i&gt; in 1897, after which it was published as a whole novel that same year.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5230</dc:source>
 		<dc:source>https://books.google.com/books?id=vdAOAAAAIAAJ</dc:source>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">49571</meta>
+		<meta property="se:reading-ease.flesch">74.69</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Invisible_Man</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_the-invisible-man</meta>
 		<dc:creator id="author">H. G. Wells</dc:creator>
@@ -55,6 +57,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Paul Gauguin</dc:contributor>
 		<meta property="file-as" refines="#artist">Gauguin, Paul</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Eugène Henri Paul Gauguin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Paul_Gauguin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055546</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -65,11 +68,15 @@
 		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
 		<meta property="se:url.homepage" refines="#producer-1">http://scriptdaemon.me/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
