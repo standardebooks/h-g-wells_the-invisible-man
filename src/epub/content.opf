@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Invisible Man</dc:title>
 		<meta property="file-as" refines="#title">Invisible Man, The</meta>
 		<dc:title id="subtitle">A Grotesque Romance</dc:title>
@@ -39,19 +39,21 @@
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<dc:subject id="subject-3">Scientists -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Mentally ill -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5230</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5230</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/5230</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/5230</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85118629</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85108438</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008111358</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008107226</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<dc:description id="description">A scientist named Griffin creates a serum to render himself invisible and subsequently descends into madness.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Griffin, a scientist, has devoted his life to the study of optics. As his work progresses, he invents a method of making a person invisible. After testing the experiment on himself, he comes to realize that while the experiment was a complete success, he has no way of reversing his invisibility.&lt;/p&gt;
 			&lt;p&gt;Written in a time of rapid scientific progress and industrial development, Wells uses Griffin’s struggle with his condition and descent into obsession and madness to reflect on the dangers of unbridaled scientific progress untempered by compassion or humanity.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Invisible Man&lt;/i&gt; was initially serialized in &lt;i&gt;Pearson’s Weekly&lt;/i&gt; in 1897, after which it was published as a whole novel that same year.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5230</dc:source>
 		<dc:source>https://books.google.com/books?id=vdAOAAAAIAAJ</dc:source>
