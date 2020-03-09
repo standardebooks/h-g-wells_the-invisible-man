@@ -57,8 +57,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5230</dc:source>
 		<dc:source>https://books.google.com/books?id=vdAOAAAAIAAJ</dc:source>
-		<meta property="se:word-count">49570</meta>
-		<meta property="se:reading-ease.flesch">74.69</meta>
+		<meta property="se:word-count">49571</meta>
+		<meta property="se:reading-ease.flesch">74.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Invisible_Man</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_the-invisible-man</meta>
 		<dc:creator id="author">H. G. Wells</dc:creator>
