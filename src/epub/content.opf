@@ -50,7 +50,7 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008107226</meta>
 		<meta property="schema:genre">Science Fiction</meta>
-		<dc:abstract>A scientist named Griffin creates a serum to render himself invisible and subsequently descends into madness.</dc:abstract>
+		<meta property="schema:abstract">A scientist named Griffin creates a serum to render himself invisible and subsequently descends into madness.</meta>
 		<dc:description>
 			&lt;p&gt;Griffin, a scientist, has devoted his life to the study of optics. As his work progresses, he invents a method of making a person invisible. After testing the experiment on himself, he comes to realize that while the experiment was a complete success, he has no way of reversing his invisibility.&lt;/p&gt;
 			&lt;p&gt;Written in a time of rapid scientific progress and industrial development, &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;Wells&lt;/a&gt; uses Griffin’s struggle with his condition and descent into obsession and madness to reflect on the dangers of unbridled scientific progress untempered by compassion or humanity.&lt;/p&gt;
